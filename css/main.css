@@ -1,0 +1,34 @@
+.container {
+    width: 50%;
+}
+
+#map {
+    height: 50vh;
+    margin-bottom: 10px;
+    display: none;
+}
+
+#locationList .card {
+    padding: 10px;
+}
+
+#toast-container {
+    top: 50%;
+    bottom: unset;
+}
+
+.toast {
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.btn i {
+    font-size: 1rem;
+    margin-right: 2px;
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        width: 80%;
+        max-width: 800px;
+    }
+}
